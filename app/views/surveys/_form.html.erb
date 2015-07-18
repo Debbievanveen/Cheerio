@@ -16,6 +16,10 @@
     <% @questions.each do |question| %>
     <p><%= question.title  %></p>
 
+    <% question.answers.each do |answer| %>
+    <p><%= answer.title  %></p>
+    <% end %>
+
     <% end %>
 
   </div>
