@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
 
+=======
+  resources :results
+>>>>>>> 9c411887daf18810320abc095e62a2eba1b0ebdb
   resources :surveys
   resources :answers
   resources :questions

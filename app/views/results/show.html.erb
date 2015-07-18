@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @result.content %>
+</p>
+
+<p>
+  <strong>Begin score:</strong>
+  <%= @result.begin_score %>
+</p>
+
+<p>
+  <strong>End score:</strong>
+  <%= @result.end_score %>
+</p>
+
+<%= link_to 'Edit', edit_result_path(@result) %> |
+<%= link_to 'Back', results_path %>
