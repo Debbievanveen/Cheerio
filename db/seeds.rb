@@ -29,6 +29,6 @@ a3_3 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67T
 a3_4 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN5ZQW/giphydance.gif">', score:30, question_id:q3.id)
 
 
-Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RNA1MM/drunk_girl_car.jpg">', begin_score: 10, end_score: 20)
-Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN6GBG/vodka_dance.jpg">', begin_score: 10, end_score: 20)
+Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RNA1MM/drunk_girl_car.jpg">', begin_score: 0, end_score: 20)
+Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN6GBG/vodka_dance.jpg">', begin_score: 21, end_score: 55)
 Result.create(:content => '<img src="">', begin_score: 10, end_score: 20)
