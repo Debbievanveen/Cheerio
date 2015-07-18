@@ -60,7 +60,7 @@ background-repeat: no-repeat;
 background-size: cover;
 text-align: right;
 font-size: 40px;
-color: pink;
+color: black;
 height: 60vh;
 }
 
@@ -82,7 +82,7 @@ h1 {
 h2 {
     text-align: left;
     font-size: 30px;
-    color: pink;
+    color: black;
     font: arial;
 }
 
