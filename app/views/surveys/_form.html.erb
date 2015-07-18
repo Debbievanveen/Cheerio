@@ -19,6 +19,7 @@
     <% question.answers.each do |answer| %>
     <p>
       <%= radio_button_tag "questions[#{question.id}]", answer.id %>
+      <h4><%= answer.title  %></h4>
       <%=raw answer.title  %>
     </p>
     <% end %>
@@ -27,6 +28,6 @@
 
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "finish", class: "button"%> 
   </div>
 <% end %>
