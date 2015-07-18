@@ -17,10 +17,10 @@ a1_3 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67T
 a1_4 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJ4G5N/red_quiz.png">', score:15, question_id:q1.id)
 
 q2 = Question.create(title: 'Who is your favorite coach?')
-a2_1 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN1BFC/thijs.jpg', score:10, question_id:q2.id)
-a2_2 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN8T6Z/teacher_wouter.jpg', score:20, question_id:q2.id)
-a2_3 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN4USV/coach_andruaton.jpg', score:30, question_id:q2.id)
-a2_4 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RMV0QN/teacher_joost.jpg', score:40, question_id:q2.id)
+a2_1 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN1BFC/thijs.jpg">', score:10, question_id:q2.id)
+a2_2 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN8T6Z/teacher_wouter.jpg">', score:20, question_id:q2.id)
+a2_3 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN4USV/coach_andruaton.jpg">', score:30, question_id:q2.id)
+a2_4 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RMV0QN/teacher_joost.jpg">', score:40, question_id:q2.id)
 
 q3 = Question.create(title: 'What is your favorite movie?')
 a3_1 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RNBLTT/giphycat.gif">', score:2, question_id:q3.id)
