@@ -29,6 +29,9 @@ a3_3 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67T
 a3_4 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN5ZQW/giphydance.gif">', score:30, question_id:q3.id)
 
 
-Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RNA1MM/drunk_girl_car.jpg">', begin_score: 0, end_score: 20)
-Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN6GBG/vodka_dance.jpg">', begin_score: 21, end_score: 55)
-Result.create(:content => '<img src="">', begin_score: 10, end_score: 20)
+Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RP35DE/pasted_image_at_2015_07_18_06_38_pm.png">', begin_score: 0, end_score: 20)
+Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RP941G/pasted_image_at_2015_07_18_06_39_pm.png">', begin_score: 21, end_score: 40)
+Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RPB41X/pasted_image_at_2015_07_18_06_37_pm.png">', begin_score: 41, end_score: 60)
+Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RPCFPT/pasted_image_at_2015_07_18_06_40_pm.png">', begin_score: 61, end_score: 80)
+Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RPAMRA/pasted_image_at_2015_07_18_06_41_pm.png">', begin_score: 81, end_score: 100)
+Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RPEXDX/pasted_image_at_2015_07_18_06_45_pm.png">', begin_score: 101, end_score: 120)
