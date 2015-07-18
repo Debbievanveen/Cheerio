@@ -98,6 +98,14 @@ h4 {
     color: white;
 }
 
+.surveypicture {
+    margin: 50px auto; 
+    position: relative; 
+    width: 30 px; 
+    height: 30 px; 
+    padding: 10px; 
+}
+
 #slideshow { 
     margin: 50px auto; 
     position: relative; 
