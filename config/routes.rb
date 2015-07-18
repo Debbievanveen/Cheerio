@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :results
   resources :surveys
   resources :answers
   resources :questions

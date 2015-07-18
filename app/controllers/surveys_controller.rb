@@ -31,6 +31,8 @@ class SurveysController < ApplicationController
     params[:questions].each do |question_id, answer_id|
       @total += Answer.find(answer_id).score
     end
+
+    @result = Result.where('begin_score<=? AND end_score>=?', @total, @total).first
   end
 
   # PATCH/PUT /surveys/1
