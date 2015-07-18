@@ -12,8 +12,9 @@ Result.delete_all
 
 q1 = Question.create(title: 'What is your favorite color?')
 a1_1 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJDE1Z/black_quiz.jpg">', score:1, question_id:q1.id)
-a1_2 = Answer.create(title: 'Answer 1.2', score:2, question_id:q1.id)
-a1_3 = Answer.create(title: 'Answer 1.3', score:3, question_id:q1.id)
+a1_2 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJG1BP/blue_quiz.jpg">', score:2, question_id:q1.id)
+a1_3 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJ9NP6/geel_quiz.png">', score:3, question_id:q1.id)
+a1_4 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJ4G5N/red_quiz.png">', score:3, question_id:q1.id)
 
 q2 = Question.create(title: 'Question 2')
 a2_1 = Answer.create(title: 'Answer 2.1', score:4, question_id:q2.id)
