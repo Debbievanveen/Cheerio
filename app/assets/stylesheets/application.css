@@ -98,11 +98,11 @@ h4 {
     color: white;
 }
 
-.surveypicture {
+.content_wrapper img {
     margin: 50px auto; 
     position: relative; 
-    width: 30 px; 
-    height: 30 px; 
+    width: 120px; 
+    height: 120px; 
     padding: 10px; 
 }
 

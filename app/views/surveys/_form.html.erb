@@ -19,8 +19,7 @@
     <% question.answers.each do |answer| %>
     <p>
       <%= radio_button_tag "questions[#{question.id}]", answer.id %>
-      <h4><%= answer.title  %></h4>
-      <%=raw answer.title  %>
+      <span class="content_wrapper"><%=raw answer.title  %></span>
     </p>
     <% end %>
 
