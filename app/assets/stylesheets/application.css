@@ -1,15 +1,87 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+body {
+	margin:0;
+	background-color: pink;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: black;
+}
+
+
+.answers {
+    background-image: url("https://ununsplash.imgix.net/photo-1429030150151-548690082f0b?fit=crop&fm=jpg&h=700&q=75&w=1050");
+    background-size: cover;
+}
+
+.surveys {
+   background-image: url("https://ununsplash.imgix.net/photo-1422544834386-d121ef7c6ea8?fit=crop&fm=jpg&h=1125&q=75&w=1050");
+   background-size: cover;
+}
+
+
+div.relative {
+	position: relative;
+	left: 30px;
+	border: 3px solid #8AC007;
+}
+
+ul {
+  list-style-image: url("https://download.unsplash.com/photo-1430132594682-16e1185b17c5");
+}
+
+div {
+ }
+
+.top-nav {
+    background-color: black;
+    max-width:900px;
+    height: 3px;
+    margin-left:0px;
+    padding-left:10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.afbeelding_doe_de_test {
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e7/Flaming_cocktails.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: right;
+font-size: 40px;
+color: pink;
+height: 400px;
+}
+
+.afbeelding_container .tekst_container {
+position: absolute;
+top: 10px;
+left: 20px;
+color: #FFFFFF;
+}
+
+
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	color: #454445;
+}
+
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 100 px; 
+    height: 70 px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 

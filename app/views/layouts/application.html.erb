@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="styling.css" rel="stylesheet" type="text/css">
   <title>Cheerio</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+  <%= csrf_meta_tags %> 
 </head>
-<body>
 
-<%= yield %>
+
+<body class="<%=controller_name%>">
+	<div class = "top-nav">
+        <img src ="https://www.flickr.com/photos/ralphandjenny/5434949056" align="middle" id="circle">
+    </div>
+
+    <%= yield %>
 
 </body>
 </html>
+
+
