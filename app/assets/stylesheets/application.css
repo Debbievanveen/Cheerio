@@ -23,7 +23,7 @@ body {
 }
 
 .surveys {
-   background-image: url("https://ununsplash.imgix.net/photo-1422544834386-d121ef7c6ea8?fit=crop&fm=jpg&h=1125&q=75&w=1050");
+   background-image: url("https://download.unsplash.com/photo-1415201179613-bd037ff5eb29");
    background-size: cover;
 }
 
@@ -76,7 +76,7 @@ color: #FFFFFF;
 h1 {
 	text-align: center;
 	font-size: 40px;
-	color: white;
+	color: black;
 }
 
 h2 {
