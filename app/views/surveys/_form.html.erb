@@ -14,12 +14,12 @@
   <div class="field">
     <%= f.label :score %><br>
     <% @questions.each do |question| %>
-    <p><%= question.title  %></p>
+    <p><%=raw question.title  %></p>
 
     <% question.answers.each do |answer| %>
     <p>
       <%= radio_button_tag "questions[#{question.id}]", answer.id %>
-      <%= answer.title  %>
+      <%=raw answer.title  %>
     </p>
     <% end %>
 
