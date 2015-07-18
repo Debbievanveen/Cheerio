@@ -101,8 +101,15 @@ h4 {
 .content_wrapper img {
     margin: 50px auto; 
     position: relative; 
-    width: 120px; 
-    height: 120px; 
+    width: 250px; 
+    height: 250px; 
+    padding: 10px; 
+}
+
+.results img {
+    margin: 50px auto; 
+    position: relative; 
+    width: 800px;  
     padding: 10px; 
 }
 

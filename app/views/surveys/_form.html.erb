@@ -4,23 +4,22 @@
       <h2><%= pluralize(@survey.errors.count, "error") %> prohibited this survey from being saved:</h2>
 
       <ul>
-      <% @survey.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
+        <% @survey.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
       </ul>
     </div>
   <% end %>
 
   <div class="field">
-    <%= f.label :score %><br>
     <% @questions.each do |question| %>
     <p><%=raw question.title  %></p>
 
     <% question.answers.each do |answer| %>
-    <p>
+    
       <%= radio_button_tag "questions[#{question.id}]", answer.id %>
       <span class="content_wrapper"><%=raw answer.title  %></span>
-    </p>
+    
     <% end %>
 
     <% end %>
