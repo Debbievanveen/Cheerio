@@ -11,19 +11,23 @@ Answer.delete_all
 Result.delete_all
 
 q1 = Question.create(title: 'What is your favorite color?')
-a1_1 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJDE1Z/black_quiz.jpg">', score:1, question_id:q1.id)
+a1_1 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJDE1Z/black_quiz.jpg">', score:5, question_id:q1.id)
 a1_2 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJG1BP/blue_quiz.jpg">', score:2, question_id:q1.id)
 a1_3 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJ9NP6/geel_quiz.png">', score:3, question_id:q1.id)
-a1_4 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJ4G5N/red_quiz.png">', score:3, question_id:q1.id)
+a1_4 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJ4G5N/red_quiz.png">', score:9, question_id:q1.id)
 
 q2 = Question.create(title: 'Question 2')
 a2_1 = Answer.create(title: 'Answer 2.1', score:4, question_id:q2.id)
 a2_2 = Answer.create(title: 'Answer 2.2', score:5, question_id:q2.id)
 a2_3 = Answer.create(title: 'Answer 2.3', score:6, question_id:q2.id)
 
-q3 = Question.create(title: 'Question 3')
-a3_1 = Answer.create(title: 'Answer 3.1', score:7, question_id:q3.id)
-a3_2 = Answer.create(title: 'Answer 3.2', score:8, question_id:q3.id)
-a3_3 = Answer.create(title: 'Answer 3.3', score:9, question_id:q3.id)
+q3 = Question.create(title: 'What is your favorite movie?')
+a3_1 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RNBLTT/giphycat.gif">', score:2, question_id:q3.id)
+a3_2 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN9REK/doggiestyle.gif">', score:8, question_id:q3.id)
+a3_3 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN3LRE/giphyscary.gif">', score:20, question_id:q3.id)
+a3_4 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN5ZQW/giphydance.gif">', score:30, question_id:q3.id)
 
-Result.create(:content => '<img src="bla">', begin_score: 10, end_score: 20)
+
+Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RNA1MM/drunk_girl_car.jpg">', begin_score: 10, end_score: 20)
+Result.create(:content => '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN6GBG/vodka_dance.jpg">', begin_score: 10, end_score: 20)
+Result.create(:content => '<img src="">', begin_score: 10, end_score: 20)
