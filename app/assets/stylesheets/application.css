@@ -54,21 +54,21 @@ div {
 }
 
 .afbeelding_doe_de_test {
-background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e7/Flaming_cocktails.jpg");
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-text-align: right;
-font-size: 40px;
-color: black;
-height: 60vh;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e7/Flaming_cocktails.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    font-size: 40px;
+    color: black;
+    height: 60px;
 }
 
 .afbeelding_container .tekst_container {
-position: absolute;
-top: 10px;
-left: 20px;
-color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #FFFFFF;
 }
 
 
@@ -116,8 +116,8 @@ h4 {
 #slideshow { 
     margin: 50px auto; 
     position: relative; 
-    width: 100 px; 
-    height: 70 px; 
+    width: 100px; 
+    height: 70px; 
     padding: 10px; 
     box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
@@ -128,10 +128,11 @@ h4 {
     left: 10px; 
     right: 10px; 
     bottom: 10px;
+}
 
 .button {
     margin: 50px auto; 
     position: relative; 
-    width: 10 px; 
-    height: 5 px; 
+    width: 10px; 
+    height: 5px; 
 }
