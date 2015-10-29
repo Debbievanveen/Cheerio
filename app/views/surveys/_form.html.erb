@@ -13,19 +13,19 @@
 
   <div class="field">
     <% @questions.each do |question| %>
-    <p><%=raw question.title  %></p>
+    <p><%= question.title  %></p>
 
     <% question.answers.each do |answer| %>
-    
+
       <%= radio_button_tag "questions[#{question.id}]", answer.id %>
-      <span class="content_wrapper"><%=raw answer.title  %></span>
-    
+      <span class="content_wrapper"><%= image_tag "answers/#{answer.title}"  %></span>
+
     <% end %>
 
     <% end %>
 
   </div>
   <div class="actions">
-    <%= f.submit "finish", class: "button"%> 
+    <%= f.submit "finish", class: "button"%>
   </div>
 <% end %>

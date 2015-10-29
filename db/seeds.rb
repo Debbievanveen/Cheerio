@@ -11,10 +11,10 @@ Answer.delete_all
 Result.delete_all
 
 q1 = Question.create(title: 'What is your favorite color?')
-a1_1 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJDE1Z/black_quiz.jpg">', score:8, question_id:q1.id)
-a1_2 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJG1BP/blue_quiz.jpg">', score:2, question_id:q1.id)
-a1_3 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJ9NP6/geel_quiz.png">', score:23, question_id:q1.id)
-a1_4 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RJ4G5N/red_quiz.png">', score:15, question_id:q1.id)
+a1_1 = Answer.create(title: 'black_quiz.jpg', score:8, question_id:q1.id)
+a1_2 = Answer.create(title: 'blue_quiz.jpg', score:2, question_id:q1.id)
+a1_3 = Answer.create(title: 'geel_quiz.png', score:23, question_id:q1.id)
+a1_4 = Answer.create(title: 'red_quiz.png', score:15, question_id:q1.id)
 
 q2 = Question.create(title: 'Who is your favorite coach?')
 a2_1 = Answer.create(title: '<img src="https://files.slack.com/files-pri/T07G67TT7-F07RN1BFC/thijs.jpg">', score:10, question_id:q2.id)
